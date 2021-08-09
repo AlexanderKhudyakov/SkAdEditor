@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CA1110826B43F8B007580A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1110726B43F8B007580A1 /* AppDelegate.swift */; };
+		9CA1110A26B43F8E007580A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1110926B43F8E007580A1 /* Assets.xcassets */; };
+		9CA1110D26B43F8E007580A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1110B26B43F8E007580A1 /* MainMenu.xib */; };
+		9CA1111626B4408E007580A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1111526B4408E007580A1 /* MainViewController.swift */; };
+		9CA1112126B4834C007580A1 /* SKAdNetworkId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1111926B4834C007580A1 /* SKAdNetworkId.swift */; };
+		9CA1112226B4834C007580A1 /* SKAdNetworkCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1111A26B4834C007580A1 /* SKAdNetworkCollection.swift */; };
+		9CA1112426B4834C007580A1 /* SKAdNetworkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1111C26B4834C007580A1 /* SKAdNetworkList.swift */; };
+		9CA1112526B4834C007580A1 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1111F26B4834C007580A1 /* String+Regex.swift */; };
+		9CA1112626B4834C007580A1 /* Dictionary+Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1112026B4834C007580A1 /* Dictionary+Plist.swift */; };
+		9CA1112926B4845A007580A1 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 9CA1112826B4845A007580A1 /* OrderedCollections */; };
+		9CA1112B26B4870C007580A1 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1112A26B4870C007580A1 /* MainPresenter.swift */; };
+		9CC525D126BBE901008F5C6C /* AddPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC525D026BBE901008F5C6C /* AddPanel.swift */; };
+		9CC525DC26BC02A7008F5C6C /* AddPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC525DB26BC02A7008F5C6C /* AddPanel.xib */; };
+		9CC525E026BC28C9008F5C6C /* AddPanelPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC525DF26BC28C9008F5C6C /* AddPanelPresenter.swift */; };
+		9CC525E226BC3849008F5C6C /* PlistKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC525E126BC3849008F5C6C /* PlistKey.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CA1110426B43F8B007580A1 /* SKAdEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKAdEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA1110726B43F8B007580A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CA1110926B43F8E007580A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CA1110C26B43F8E007580A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9CA1110E26B43F8E007580A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA1110F26B43F8E007580A1 /* SKAdEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SKAdEditor.entitlements; sourceTree = "<group>"; };
+		9CA1111526B4408E007580A1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9CA1111926B4834C007580A1 /* SKAdNetworkId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKAdNetworkId.swift; sourceTree = "<group>"; };
+		9CA1111A26B4834C007580A1 /* SKAdNetworkCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKAdNetworkCollection.swift; sourceTree = "<group>"; };
+		9CA1111C26B4834C007580A1 /* SKAdNetworkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKAdNetworkList.swift; sourceTree = "<group>"; };
+		9CA1111F26B4834C007580A1 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		9CA1112026B4834C007580A1 /* Dictionary+Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Plist.swift"; sourceTree = "<group>"; };
+		9CA1112A26B4870C007580A1 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		9CC525D026BBE901008F5C6C /* AddPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPanel.swift; sourceTree = "<group>"; };
+		9CC525DB26BC02A7008F5C6C /* AddPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPanel.xib; sourceTree = "<group>"; };
+		9CC525DF26BC28C9008F5C6C /* AddPanelPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPanelPresenter.swift; sourceTree = "<group>"; };
+		9CC525E126BC3849008F5C6C /* PlistKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistKey.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA1110126B43F8B007580A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA1112926B4845A007580A1 /* OrderedCollections in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CA110FB26B43F8B007580A1 = {
+			isa = PBXGroup;
+			children = (
+				9CA1110626B43F8B007580A1 /* SKAdEditor */,
+				9CA1110526B43F8B007580A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA1110526B43F8B007580A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1110426B43F8B007580A1 /* SKAdEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA1110626B43F8B007580A1 /* SKAdEditor */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1111726B4834C007580A1 /* Sources */,
+				9CA1110926B43F8E007580A1 /* Assets.xcassets */,
+				9CC525DB26BC02A7008F5C6C /* AddPanel.xib */,
+				9CA1110B26B43F8E007580A1 /* MainMenu.xib */,
+				9CA1110E26B43F8E007580A1 /* Info.plist */,
+				9CA1110F26B43F8E007580A1 /* SKAdEditor.entitlements */,
+			);
+			path = SKAdEditor;
+			sourceTree = "<group>";
+		};
+		9CA1111726B4834C007580A1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9CC525D626BBF818008F5C6C /* Views */,
+				9CA1111826B4834C007580A1 /* Logic */,
+				9CA1111D26B4834C007580A1 /* Utils */,
+				9CA1110726B43F8B007580A1 /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9CA1111826B4834C007580A1 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1111926B4834C007580A1 /* SKAdNetworkId.swift */,
+				9CA1111A26B4834C007580A1 /* SKAdNetworkCollection.swift */,
+				9CA1111C26B4834C007580A1 /* SKAdNetworkList.swift */,
+				9CC525E126BC3849008F5C6C /* PlistKey.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		9CA1111D26B4834C007580A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1111E26B4834C007580A1 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9CA1111E26B4834C007580A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1111F26B4834C007580A1 /* String+Regex.swift */,
+				9CA1112026B4834C007580A1 /* Dictionary+Plist.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9CC525D626BBF818008F5C6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9CC525D826BBF831008F5C6C /* Add */,
+				9CC525D726BBF82B008F5C6C /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9CC525D726BBF82B008F5C6C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1112A26B4870C007580A1 /* MainPresenter.swift */,
+				9CA1111526B4408E007580A1 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9CC525D826BBF831008F5C6C /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				9CC525D026BBE901008F5C6C /* AddPanel.swift */,
+				9CC525DF26BC28C9008F5C6C /* AddPanelPresenter.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA1110326B43F8B007580A1 /* SKAdEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA1111226B43F8E007580A1 /* Build configuration list for PBXNativeTarget "SKAdEditor" */;
+			buildPhases = (
+				9CA1110026B43F8B007580A1 /* Sources */,
+				9CA1110126B43F8B007580A1 /* Frameworks */,
+				9CA1110226B43F8B007580A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKAdEditor;
+			packageProductDependencies = (
+				9CA1112826B4845A007580A1 /* OrderedCollections */,
+			);
+			productName = SKAdEditor;
+			productReference = 9CA1110426B43F8B007580A1 /* SKAdEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA110FC26B43F8B007580A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9CA1110326B43F8B007580A1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 9CA110FF26B43F8B007580A1 /* Build configuration list for PBXProject "SKAdEditor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CA110FB26B43F8B007580A1;
+			packageReferences = (
+				9CA1112726B4845A007580A1 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = 9CA1110526B43F8B007580A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA1110326B43F8B007580A1 /* SKAdEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CA1110226B43F8B007580A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC525DC26BC02A7008F5C6C /* AddPanel.xib in Resources */,
+				9CA1110A26B43F8E007580A1 /* Assets.xcassets in Resources */,
+				9CA1110D26B43F8E007580A1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA1110026B43F8B007580A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC525E026BC28C9008F5C6C /* AddPanelPresenter.swift in Sources */,
+				9CA1112526B4834C007580A1 /* String+Regex.swift in Sources */,
+				9CC525D126BBE901008F5C6C /* AddPanel.swift in Sources */,
+				9CA1112126B4834C007580A1 /* SKAdNetworkId.swift in Sources */,
+				9CA1112426B4834C007580A1 /* SKAdNetworkList.swift in Sources */,
+				9CA1110826B43F8B007580A1 /* AppDelegate.swift in Sources */,
+				9CC525E226BC3849008F5C6C /* PlistKey.swift in Sources */,
+				9CA1112B26B4870C007580A1 /* MainPresenter.swift in Sources */,
+				9CA1111626B4408E007580A1 /* MainViewController.swift in Sources */,
+				9CA1112226B4834C007580A1 /* SKAdNetworkCollection.swift in Sources */,
+				9CA1112626B4834C007580A1 /* Dictionary+Plist.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CA1110B26B43F8E007580A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA1110C26B43F8E007580A1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CA1111026B43F8E007580A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CA1111126B43F8E007580A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9CA1111326B43F8E007580A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SKAdEditor/SKAdEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3W36EC6T53;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SKAdEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zimad.SKAdEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9CA1111426B43F8E007580A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SKAdEditor/SKAdEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3W36EC6T53;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SKAdEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zimad.SKAdEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA110FF26B43F8B007580A1 /* Build configuration list for PBXProject "SKAdEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA1111026B43F8E007580A1 /* Debug */,
+				9CA1111126B43F8E007580A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA1111226B43F8E007580A1 /* Build configuration list for PBXNativeTarget "SKAdEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA1111326B43F8E007580A1 /* Debug */,
+				9CA1111426B43F8E007580A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9CA1112726B4845A007580A1 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9CA1112826B4845A007580A1 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CA1112726B4845A007580A1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9CA110FC26B43F8B007580A1 /* Project object */;
+}
