@@ -1,0 +1,2 @@
+# SkAdEditor
+Managing SKAdNetwork list
